@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="data:;base64,iVBORw0KGgo=">
+    <title>X-O-X</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 class="head">TIC-TAC-TOE</h1>
+    <di class="container">
+        <div class="box" id="box1" onclick="mark(event)"><h1 class="o e" id="o1">O</h1><h1 class="x e" id="x1">X</h1></div>
+        <div class="box" id="box2" onclick="mark(event)"><h1 class="o e" id="o2">O</h1><h1 class="x e" id="x2">X</h1></div>
+        <div class="box" id="box3" onclick="mark(event)"><h1 class="o e" id="o3">O</h1><h1 class="x e" id="x3">X</h1></div>
+        <div class="box" id="box4" onclick="mark(event)"><h1 class="o e" id="o4">O</h1><h1 class="x e" id="x4">X</h1></div>
+        <div class="box" id="box5" onclick="mark(event)"><h1 class="o e" id="o5">O</h1><h1 class="x e" id="x5">X</h1></div>
+        <div class="box" id="box6" onclick="mark(event)"><h1 class="o e" id="o6">O</h1><h1 class="x e" id="x6">X</h1></div>
+        <div class="box" id="box7" onclick="mark(event)"><h1 class="o e" id="o7">O</h1><h1 class="x e" id="x7">X</h1></div>
+        <div class="box" id="box8" onclick="mark(event)"><h1 class="o e" id="o8">O</h1><h1 class="x e" id="x8">X</h1></div>
+        <div class="box" id="box9" onclick="mark(event)"><h1 class="o e" id="o9">O</h1><h1 class="x e" id="x9">X</h1></div>
+    </di>
+    <div class="popbox popup" id="popbox"><h1 class="message" id="message"></h1>
+    <button class="button" id="button" onclick="toggle_pop_box()">OK</button>
+    </div>
+    <div class="pop popup" id="pop"></div>
+    <audio id="win" src="sounds/win.wav"></audio>
+    <audio src="sounds/tie.wav" id="tie"></audio>
+    <audio src="sounds/tap.wav" id="tap"></audio>
+</body>
+</html>

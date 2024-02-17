@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+.head{
+    color: blueviolet;
+    background-color: black;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 40%;
+    top: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    margin: auto;
+    margin-top: 40px;
+    background-color: black;
+    gap: 5px;
+    border: 5px solid black;
+    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e{
+    font-size: 25vh;
+}
+.x{
+    display: none;
+}
+.o{
+    display: none;
+}
+#popbox{
+    height: 150px;
+    width: 340px;
+    background-color: rgb(18, 18, 224);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    display: none;
+}
+#message{
+    margin: 20px;
+}
+#button{
+ background-color: green;
+ height: 30px;
+ width: 60px;
+ border-radius: 7px;
+}
+#pop{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 70%;
+    z-index: 1;
+    display: none;
+}
