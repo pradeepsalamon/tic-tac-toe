@@ -1,7 +1,16 @@
 *{
     margin: 0px;
 }
-
+.head{
+    color: blueviolet;
+    background-color: black;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 40%;
+    top: 15px;
+    margin: 20px;
+    border-radius: 10px;
 }
 .container{
     width: fit-content;
