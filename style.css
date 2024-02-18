@@ -21,7 +21,7 @@
     background-color: black;
     gap: 5px;
     border: 5px solid black;
-    
+
 }
 .box{
     height: 200px;
@@ -74,10 +74,4 @@
     opacity: 70%;
     z-index: 1;
     display: none;
-}
-@media screen and (max-width:650px){
-    #pop{
-        width: 100vh;
-        height: 300vh;
-    }
 }
