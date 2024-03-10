@@ -78,6 +78,6 @@
 @media screen and (max-width:650px){
     #pop{
         width: 100vh;
-        height: 300vh;
+        height: 100vh;
     }
 }
