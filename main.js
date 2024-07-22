@@ -63,3 +63,7 @@ function toggle_pop_box(result){
 function playAudio(audio){
     audio.play()
 }
+
+function openTab(){
+    window.open('https://app-ratings.onrender.com/ratings/?appName=tic-tac-toe', '_blank')
+}
