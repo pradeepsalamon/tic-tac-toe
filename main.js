@@ -65,5 +65,5 @@ function playAudio(audio){
 }
 
 function openTab(){
-    window.open('https://app-ratings.onrender.com/ratings/?appName=tic-tac-toe', '_blank')
+    window.open('https://test-kappa-one-17.vercel.app/ratings/?appName=tic-tac-toe', '_blank')
 }
