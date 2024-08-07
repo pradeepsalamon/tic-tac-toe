@@ -65,5 +65,5 @@ function playAudio(audio){
 }
 
 function openTab(){
-    window.open('https://test-ijamc1sos-pradeepsalamons-projects.vercel.app/ratings/?appName=tic-tac-toe', '_blank')
+    window.open('https://ratings-7ghddly1v-pradeepsalamons-projects.vercel.app/ratings/?appName=tic-tac-toe', '_blank')
 }
